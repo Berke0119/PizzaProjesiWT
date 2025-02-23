@@ -1,0 +1,138 @@
+.orderSuccess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  min-height: 100vh;
+  background: #CE2829;
+  color: #FFFFFF;
+}
+
+.orderSuccess img {
+  width: 363px;
+  height: 50px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.subText {
+  font-family: 'Satisfy', cursive;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.27px;
+  margin-bottom: 20px;
+  color: #FDC913;
+}
+
+.orderSuccess h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 86px;
+  font-weight: 300;
+  line-height: 92px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.line {
+  width: 40%;
+  height: 1px;
+  background: white;
+  margin: 20px 0;
+}
+
+.orderDetails {
+  background: transparent;
+  padding: 10px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.orderDetailsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 202px;
+  text-align: left;
+}
+
+.orderDetails h3 {
+  font-family: 'Barlow' sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 29.44px;
+  margin-bottom: 10px;
+}
+
+.orderDetails p {
+  font-family: 'Barlow' sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24.76px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.orderDetails p span {
+  font-family: 'Barlow' sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24.76px;
+}
+
+.toppings {
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.orderSummary {
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 350px;
+  height: 150px;
+}
+
+.orderSummary h3 {
+  font-family: 'Barlow' sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.76px;
+  margin-bottom: 10px;
+}
+
+.orderPrice, .orderTotal {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: 'Barlow' sans-serif;
+  font-weight: 600;
+  line-height: 24.76px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+.doughSelector{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.doughSelector h3{
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.76px;
+  margin-bottom: 10px;
+  color: #292929;
+}
+
+.required{
+  color: #D80027;
+}
+
+.selectContainer{
+  display: flex;
+  align-items: center;
+  background: #FAF7F2;
+  border-radius: 6px;
+  padding: 8px 12px;
+  border: none;
+  width: 258px;
+  height: 56px;
+}
+
+.selectBox{
+  background: transparent;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Barlow', sans-serif;
+  color: #5F5F5F;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+

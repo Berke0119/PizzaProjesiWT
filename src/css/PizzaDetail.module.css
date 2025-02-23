@@ -1,0 +1,92 @@
+.pizzaDetail{
+  width: 100%;
+  background-color: #FAF7F2;
+
+}
+
+.pizzaDetailContent{
+  width: 33%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+
+}
+
+.pizzaImage{
+  width: 100%;
+  max-width: 100%;
+}
+
+.breadCrumb{
+  font-family: 'Barlow', sans-serif;
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #5F5F5F;
+  padding-left: 0;
+}
+
+.breadCrumbLink{
+  color: #CE2829;
+  text-decoration: none;
+}
+
+.pizzaName{
+  font-family: 'Barlow', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 29.44px;
+  color: #292929;
+}
+
+.pizzaInfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.pizzaPrice{
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37.47px;
+  color: #292929;
+}
+
+.pizzaRating{
+  display: flex;
+  gap: 15px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #5F5F5F;
+}
+
+.pizzaDescription{
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #5F5F5F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

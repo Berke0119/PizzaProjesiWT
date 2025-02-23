@@ -1,0 +1,47 @@
+.sizeSelector{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.sizeSelector h3{
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.76px;
+  margin-bottom: 10px;
+  color: #292929;
+}
+
+.required{
+  color: #D80027;
+}
+
+.sizeOptions{
+  display: flex;
+  gap: 10px;
+}
+
+.sizeButton{
+  width: 56px;
+  height: 56px;
+  background: #FAF7F2;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Barlow', sans-serif;
+  color: #5F5F5F;
+  line-height: 56px;
+}
+
+.sizeButton:hover{
+  background: #f3e8d9;
+}
+
+.selected{
+  background: #FFEECC;
+}
+
+
+

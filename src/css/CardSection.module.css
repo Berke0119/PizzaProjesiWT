@@ -1,0 +1,155 @@
+.cardSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAF7F2;
+}
+
+.cardContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  width: 80%;
+  max-width: 1000px;
+  gap: 10px;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.squareCard {
+  background-image: url('../images/iteration-2-images/cta/kart-1.png');
+  width: 50%;
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.cardContent {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+.squareCard h3 {
+  font-family: 'Quattrocento', serif;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.squareCard p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26.76px;
+  color: #FFFFFF;
+}
+
+.rectangleContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+}
+
+.rectangleCard {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.rectangleCard1 {
+  background-image: url('../images/iteration-2-images/cta/kart-2.png');
+}
+
+.rectangleCard1 h3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44.27px;
+  color: #FFFFFF;
+}
+
+.rectangleCard2 {
+  background-image: url('../images/iteration-2-images/cta/kart-3.png');
+}
+
+.rectangleCard2 h3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44.27px;
+  color: #292929;
+}
+
+.highlight {
+  color: #D80027;
+}
+
+.orderButton {
+  width: 138px;
+  height: 48px;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  color: #CE2829;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .squareCard,
+  .rectangleContainer {
+    width: 100%;
+    position: relative;
+  }
+
+  .squareCard {
+    height: 300px;
+  }
+
+  .rectangleCard {
+    height: 180px;
+    position: relative;
+  }
+
+  .squareCard h3 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .cardContent {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .orderButton {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+  }
+}
+
+
+
+
+
+

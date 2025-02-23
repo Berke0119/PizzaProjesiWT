@@ -1,0 +1,82 @@
+.toppingsSelector{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.toppingsSelector h3{
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.76px;
+  margin-bottom: 10px;
+  color: #292929;
+}
+
+.restriction{
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 56px;
+  color: #5F5F5F;
+}
+
+.error{
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 56px;
+  margin-bottom: 10px;
+  color: #D80027;
+}
+
+.toppingGrid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+}
+
+.topping{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toppingName{
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: #5F5F5F;
+}
+
+.topping input{
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.customCheckbox{
+  width: 45px;
+  height: 45px;
+  background: #FAF7F2;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.topping input:checked + .customCheckbox {
+  background: #FDC913;
+}
+
+.topping input:checked + .customCheckbox::after {
+  content: "✔";
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: #000000;
+}

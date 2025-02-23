@@ -1,0 +1,110 @@
+.footer {
+  background: #1A1A1A;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footerContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerLeft {
+  max-width: 306px;
+}
+
+.footerLeft h2 {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.footerLeft p {
+  font-family: 'Barlow', sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  margin-bottom: 8px;
+  color: #d1d1d1;
+}
+
+.footerLeft img {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+}
+
+
+.footerCenter h3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32.11px;
+  margin-bottom: 10px;
+}
+
+.footerCenter ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerCenter li {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  color: #d1d1d1;
+  margin-bottom: 5px;
+}
+
+.footerRight h3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32.11px;
+  margin-bottom: 10px;
+}
+
+.instagramGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.instagramGrid img {
+  width: 105px;
+  height: 105px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+/* Alt Kısım: Telif Hakkı ve Sosyal Medya */
+.footerBottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #333;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #FFFFFF;
+}
+
+.footerBottom img {
+  width: 20px;
+  cursor: pointer;
+}
+
+
