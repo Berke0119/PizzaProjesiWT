@@ -1,6 +1,14 @@
+import { useNavigate } from 'react-router-dom';
 import styles from '../css/Header.module.css';
 
 export default function Header() {
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/form');
+  };
+
   return (
     <header className={styles.header}>
       <div className={styles.headerLogo}>
@@ -8,7 +16,7 @@ export default function Header() {
       </div>
       <p>fırsatı kaçırma</p>
       <h1>Kod Acıktırır<br />Pızza, doyurur</h1>
-      <a className={styles.headerButton} href="#">Acıktım</a>
+      <a className={styles.headerButton} onClick={handleClick}>Acıktım</a>
     </header>
   );
 }

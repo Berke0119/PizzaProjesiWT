@@ -107,6 +107,13 @@
   text-align: center;
   margin-left: 32px;
   margin-top: 32px;
+  cursor: pointer;
+}
+
+.orderButton:hover {
+  background-color: #FDC913;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {

@@ -12,6 +12,7 @@ export default function OrderSection() {
     setActiveIndex(index);
   };
 
+
   const orderData = [
     {
       image: '../images/iteration-2-images/pictures/food-1.png',

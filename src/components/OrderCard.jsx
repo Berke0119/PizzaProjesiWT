@@ -1,8 +1,16 @@
 import styles from '../css/OrderCard.module.css';
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
+
 const OrderCard = ({ image, title, rating, reviews, price }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/form');
+  };
+  
   return (
-    <div className={styles.orderCard}>
+    <div className={styles.orderCard} onClick={handleClick}>
       <img src={image} alt={title} className={styles.orderCardImg} />
       <h3 className={styles.orderCardTitle}>{title}</h3>
       <div className={styles.orderCardContainer}>

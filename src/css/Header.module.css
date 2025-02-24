@@ -53,6 +53,7 @@
   font-size: 2.4rem;
   line-height: 56px;
   text-align: center;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
