@@ -1,6 +1,8 @@
 .sizeSelector{
   text-align: left;
   margin-bottom: 20px;
+  flex: 1;
+  min-width: 200px;
 }
 
 .sizeSelector h3{
@@ -41,6 +43,16 @@
 
 .selected{
   background: #FFEECC;
+}
+
+@media (max-width: 768px) {
+  .sizeSelector {
+    flex: 1;
+  }
+  
+  .sizeOptions {
+    justify-content: flex-start;
+  }
 }
 
 

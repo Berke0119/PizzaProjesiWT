@@ -53,7 +53,7 @@
   padding: 16px;
   border-radius: 6px;
   border: 1px solid #ddd;
-  height: 197px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -108,6 +108,25 @@
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .orderSummaryContainer {
+    flex-direction: column;
+  }
+
+  .orderSummaryCardContainer {
+    width: 100%;
+  }
+
+  .quantitySelector {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .orderButton {
+    width: 100%;
+  }
 }
 
 

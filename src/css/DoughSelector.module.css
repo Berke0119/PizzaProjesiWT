@@ -1,6 +1,8 @@
 .doughSelector{
   text-align: left;
   margin-bottom: 20px;
+  flex: 1;
+  min-width: 200px;
 }
 
 .doughSelector h3{
@@ -23,7 +25,8 @@
   border-radius: 6px;
   padding: 8px 12px;
   border: none;
-  width: 258px;
+  width: 100%;
+  min-width: 200px;
   height: 56px;
 }
 
@@ -37,5 +40,11 @@
   cursor: pointer;
   outline: none;
   border: none;
+}
+
+@media (max-width: 768px) {
+  .selectContainer {
+    width: 100%;
+  }
 }
 

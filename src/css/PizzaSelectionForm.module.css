@@ -18,6 +18,20 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  gap: 30px;
+}
+
+@media (max-width: 1024px) {
+  .pizzaFormContainer {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .pizzaFormContainer {
+    width: 90%;
+    padding: 20px;
+  }
 }
 
 

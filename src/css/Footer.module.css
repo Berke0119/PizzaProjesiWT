@@ -85,7 +85,7 @@
   border-radius: 3px;
 }
 
-/* Alt Kısım: Telif Hakkı ve Sosyal Medya */
+
 .footerBottom {
   max-width: 1200px;
   margin: 0 auto;
@@ -105,6 +105,30 @@
 .footerBottom img {
   width: 20px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footerLeft,
+  .footerCenter,
+  .footerRight {
+    width: 100%;
+  }
+
+  .instagramGrid {
+    gap: 5px;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
 }
 
 

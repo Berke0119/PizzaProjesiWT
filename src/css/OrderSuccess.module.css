@@ -63,7 +63,7 @@
 }
 
 .orderDetails h3 {
-  font-family: 'Barlow' sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 22px;
   font-weight: 600;
   line-height: 29.44px;
@@ -71,7 +71,7 @@
 }
 
 .orderDetails p {
-  font-family: 'Barlow' sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24.76px;
@@ -81,7 +81,7 @@
 }
 
 .orderDetails p span {
-  font-family: 'Barlow' sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24.76px;
@@ -102,11 +102,12 @@
   padding: 30px;
   margin-bottom: 30px;
   width: 350px;
-  height: 150px;
+  height: auto;
+  min-height: 150px;
 }
 
 .orderSummary h3 {
-  font-family: 'Barlow' sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 24.76px;
@@ -117,10 +118,59 @@
   display: flex;
   justify-content: space-between;
   font-size: 18px;
-  font-family: 'Barlow' sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: 600;
   line-height: 24.76px;
   margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .orderSuccess {
+    padding: 20px;
+  }
+
+  .orderSuccess img {
+    width: 280px;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+
+  .subText {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .orderSuccess h2 {
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .line {
+    width: 80%;
+  }
+
+  .orderDetailsItem {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .orderSummary {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+  }
+
+  .orderDetails {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .orderDetails h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
 }
 
 

@@ -35,6 +35,12 @@
   gap: 10px;
 }
 
+@media (max-width: 768px) {
+  .toppingGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .topping{
   display: flex;
   align-items: center;
