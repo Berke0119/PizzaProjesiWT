@@ -40,6 +40,11 @@
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   text-transform: uppercase;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header h1:hover {
+  transform: perspective(500px) rotateY(10deg) translateX(-5px);
 }
 
 .headerButton {
@@ -54,6 +59,11 @@
   line-height: 56px;
   text-align: center;
   cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.headerButton:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
@@ -77,4 +87,8 @@
     font-size: 2rem;
     line-height: 48px;
   }
+
+  
+ 
+  
 }

@@ -25,7 +25,13 @@
   font-size: 42px;
   font-weight: 600;
   line-height: 56.2px;
+  transition: all 0.2s ease-in-out;
   color: #292929;
+}
+
+.orderContent h2:hover {
+  transform: skewY(2deg) skewX(15deg) scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .orderNavbar {
@@ -56,6 +62,12 @@
   line-height: 32.4px;
   white-space: nowrap;
   min-width: max-content;
+  transition: all 0.2s ease-in-out;
+}
+
+.orderNavItem:hover {
+  transform: scale(1.1);
+  background-color: rgb(94, 91, 91);
 }
 
 .orderNavItem img {

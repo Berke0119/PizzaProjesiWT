@@ -41,7 +41,6 @@
   margin-right: 8px;
 }
 
-
 .footerCenter h3 {
   font-family: 'Barlow', sans-serif;
   font-size: 24px;
@@ -83,6 +82,11 @@
   height: 105px;
   object-fit: cover;
   border-radius: 3px;
+  transition: outline 0.1s ease-in-out;
+}
+
+.instagramGrid img:hover {
+  outline: 5px solid #55c57a;
 }
 
 
