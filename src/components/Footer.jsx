@@ -8,15 +8,15 @@ const Footer = () => {
         <div className={styles.footerLeft}>
           <h2>Teknolojik Yemekler</h2>
           <p>
-            <img src="../../images/iteration-2-images/footer/icons/icon-1.png" alt="Adres" />
+            <img src="/images/iteration-2-images/footer/icons/icon-1.png" alt="Adres" />
             341 Londonderry Road, İstanbul Türkiye
           </p>
           <p>
-            <img src="../../images/iteration-2-images/footer/icons/icon-2.png" alt="Email" />
+            <img src="/images/iteration-2-images/footer/icons/icon-2.png" alt="Email" />
             aciktim@teknolojikyemekler.com
           </p>
           <p>
-            <img src="../../images/iteration-2-images/footer/icons/icon-3.png" alt="Telefon" />
+            <img src="/images/iteration-2-images/footer/icons/icon-3.png" alt="Telefon" />
             +90 216 123 45 67
           </p>
         </div>
@@ -38,12 +38,12 @@ const Footer = () => {
         <div className={styles.footerRight}>
           <h3>Instagram</h3>
           <div className={styles.instagramGrid}>
-            <img src="../../images/iteration-2-images/footer/insta/li-0.png" alt="Food 1" />
-            <img src="../../images/iteration-2-images/footer/insta/li-1.png" alt="Food 2" />
-            <img src="../../images/iteration-2-images/footer/insta/li-2.png" alt="Food 3" />
-            <img src="../../images/iteration-2-images/footer/insta/li-3.png" alt="Food 4" />
-            <img src="../../images/iteration-2-images/footer/insta/li-4.png" alt="Food 5" />
-            <img src="../../images/iteration-2-images/footer/insta/li-5.png" alt="Food 6" />
+            <img src="/images/iteration-2-images/footer/insta/li-0.png" alt="Food 1" />
+            <img src="/images/iteration-2-images/footer/insta/li-1.png" alt="Food 2" />
+            <img src="/images/iteration-2-images/footer/insta/li-2.png" alt="Food 3" />
+            <img src="/images/iteration-2-images/footer/insta/li-3.png" alt="Food 4" />
+            <img src="/images/iteration-2-images/footer/insta/li-4.png" alt="Food 5" />
+            <img src="/images/iteration-2-images/footer/insta/li-5.png" alt="Food 6" />
           </div>
         </div>
       </div>

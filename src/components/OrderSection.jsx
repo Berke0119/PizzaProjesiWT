@@ -46,7 +46,7 @@ export default function OrderSection() {
           <ul className={styles.orderNavList}>
             {navItems.map((item, index) => (
               <li key={index} className={`${styles.orderNavItem} ${index === activeIndex ? styles.active : ''}`} onClick={() => handleItemClick(index)}>
-                <img src={`../images/iteration-2-images/icons/${index + 1}.svg`} alt={item} />
+                <img src={`/images/iteration-2-images/icons/${index + 1}.svg`} alt={item} />
                 <span>{item}</span>
               </li>
             ))}

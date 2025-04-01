@@ -8,7 +8,7 @@ export default function OrderSuccess() {
 
   return (
     <div className={styles.orderSuccess}>
-      <img src='../../images/iteration-1-images/logo.svg' alt="Logo"/>
+      <img src='/images/iteration-1-images/logo.svg' alt="Logo"/>
       <p className={styles.subText}>lezzetin yolda</p>
       <h2>SİPARİŞ ALINDI</h2>
       <div className={styles.line}></div>

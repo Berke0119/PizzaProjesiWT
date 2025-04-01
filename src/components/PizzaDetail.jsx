@@ -5,7 +5,7 @@ export default function PizzaDetail() {
   return (
     <div className={styles.pizzaDetail}>
       <div className={styles.pizzaDetailContent}>
-        <img className={styles.pizzaImage} src='../images/iteration-2-images/pictures/form-banner.png' alt="pizza" />
+        <img className={styles.pizzaImage} src='/images/iteration-2-images/pictures/form-banner.png' alt="pizza" />
         <nav className={styles.breadCrumb}>
           <Link to="/">Anasayfa</Link> <span>›</span> <Link to="/form" className={styles.breadCrumbLink}>Sipariş Oluştur</Link>
         </nav>
